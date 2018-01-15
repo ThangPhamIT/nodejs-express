@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        {{#showStatusMessage detailMessages}}
+        {{/showStatusMessage}}
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <form action="contact" method="post">
+            <div class="form-group">
+                <lable for="">Name *</lable>
+                <input type="text" class="form-control" name="name" placeholder="Enter your name...">
+            </div>
+            <div class="form-group">
+                <lable for="">Email *</lable>
+                <input type="text" class="form-control" name="email" placeholder="Enter your email...">
+            </div>
+            <div class="form-group">
+                <lable for="">Message *</lable>
+                <textarea class="form-control" name="message" rows="8" cols="80" placeholder="Enter you message"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="reset" class="btn btn-default">Reset</button>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+        </form>
+    </div>
+</div>
